@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run Docker Container') {
             steps {
-                bat 'docker run -d -p 8080:80 dummy-image'
+                bat 'docker run -d -p 8090:80 dummy-image'
             }
         }
     }
